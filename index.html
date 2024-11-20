@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment-32(Dice Roller)</title>
+    <title>Dice Roller</title>
     <style>
         body{
             background-color: lavender;
@@ -22,14 +22,14 @@
            border-radius: 5px;
            margin-left: 180px;
            margin-bottom: 20px;
-           background-color: cadetblue;
+           background-color: rgb(114, 119, 119);
         }
         div{
-            border:2px solid black;
+            border:2px solid rgb(207, 48, 48);
             border-radius: 20px;
             width:500px;
             margin: 130px auto 0px auto; 
-            background-color: aliceblue;   
+            background-color: rgb(162, 166, 170);   
         }
     </style>
 </head>
@@ -46,17 +46,17 @@
         const max=7;
         const Num=Math.floor(Math.random()*(max-min))+min;
         switch(Num){
-            case 1:diceImg.src="./images/one.png";
+            case 1:diceImg.src="./images/one.jpg";
                    break;
             case 2:diceImg.src="./images/two.png";
                    break;   
-            case 3:diceImg.src="./images/three.png";
+            case 3:diceImg.src="./images/three.jpg";
                    break; 
             case 4:diceImg.src="./images/four.png";
                    break;
-            case 5:diceImg.src="./images/five.png";
+            case 5:diceImg.src="./images/five.jpg";
                    break;
-            case 6:diceImg.src="./images/six.png";
+            case 6:diceImg.src="./images/six.jpg";
         }
     }
 </script>
